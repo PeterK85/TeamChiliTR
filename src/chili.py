@@ -40,6 +40,6 @@ def finish_the_chili(tr):
     tr_file.write("\\end{document}")
     tr_file.close()
     try:
-        subprocess.check_call(['pdflatex.exe', tr])
+        subprocess.check_call(['pdflatex.exe', tr]) # pdflatex on linux, pdflatex.exe on wins, no idea for osx
     except:
         print("the chili went bad...")
