@@ -10,6 +10,9 @@ def init_tr(tr_num_str):
     return file_name
 
 def finish_the_chili(tr):
+    tr_file = open(tr, 'a')
+    tr_file.write("\\end{document}")
+    tr_file.close()
     try:
         subprocess.check_call(['pdflatex', tr])
     except:
