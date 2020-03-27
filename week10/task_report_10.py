@@ -38,12 +38,48 @@ chili.new_task(file_name,
                "Investigate to potentially use deepstate fuzzing to test the various APIs for bugs",
                "At this time, deepstate is not easily available to the public, i.e. incredibly lacking in documentation, have to use docker(when there is a working image), etc.")
 
+chili.new_task(file_name,
+               "Register for UGRADS & Submit Abstract",
+               "3.6.20",
+               "3.15.20",
+               "100",
+               "Adam (40\\%), Peter (60\\%)",
+               "To present for UGRADS, submit registration with all names, emails, info, along with title and abstract",
+               "UGRADS registration is complete.")
+
 
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 chili.new_task(file_name,
-               "User Manual",
+               "Order Pi Parts & Laptop",
                "3.27.20",
-               "",
+               "3.30.20",
+               "0",
+               "Adam (100\\%)", 
+               "Contact Henrique to order new Pi, laptop, sd card, and Pi case",
+               "Parts are ordered")
+
+chili.new_task(file_name,
+               "Order NAT parts",
+               "3.27.20",
+               "3.30.20",
+               "0",
+               "Adam (100\\%)", 
+               "Contact manufacturer of NATCon boxes and get new pair of DC-DC converters (ask for quote first and confirm with JC",
+               "Parts are ordered")
+
+chili.new_task(file_name,
+               "Put together demo doc",
+               "3.27.20",
+               "4.3.20",
+               "0",
+               "All", 
+               "Put together demo summary for Gerard and JC documenting results and how to move forward",
+               "Document is sent to JC and Gerard")
+
+chili.new_task(file_name,
+               "User Manual",
+               "3.23.20",
+               "4.24.20",
                "0",
                "Peter (50\\%), Rest TBD", # I am giving my self the percentage since I will be doing LaTeX
                "Create the user manual for the system to give to JC so they can replicate/use the system",
@@ -51,16 +87,18 @@ chili.new_task(file_name,
 
 chili.new_task(file_name,
                "BrainCon Code Documentation",
-               "3.27.20",
-               "",
+               "3.23.20",
+               "4.24.20",
+               "2",
                "Trey (70\\%) Peter (20\\%) Adam (10\\%)",
                "Document the code to limit future questions about source code and to allow future developers to read and understand our code.",
                "Well-documented code.")
 
 chili.new_task(file_name,
                "NeuronCon Code Documentation",
-               "3.27.20",
-               "",
+               "3.23.20",
+               "4.24.20",
+               "2",
                "Adam (34\\%) Mike (33\\%) Brandon (33\\%)",
                "Document the code to limit future questions about source code and to allow future developers to read and understand our code.",
                "Well-documented code.")
@@ -68,7 +106,8 @@ chili.new_task(file_name,
 chili.new_task(file_name,
                "Circuit Diagrams",
                "3.27.20",
-               "",
+               "4.24.20",
+               "1",
                "Adam (70\\%) Peter (30\\%)",
                "Create circuit diagrams for all of the curcuits made for the project to allow future EE's to improve and understand the electronics.",
                "Circuit diagrams")
@@ -76,7 +115,8 @@ chili.new_task(file_name,
 cili.new_task(file_name,
               "Design Review 3",
               "3.27.20"
-              "",
+              "4.3.20",
+              "10",
               "All",
               "Create some sort of presentation for Design Review 3, modified due to the covid-19 craziness",
               "A presentation for design review 3")
@@ -109,22 +149,13 @@ chili.new_task(file_name,
                "A main.cpp file designed using the thread pool.")
 
 chili.new_task(file_name,
-               "Put together abstract for UGRADS",
-               "2.21.20",
-               "3.10.20",
+               "Make changes to UGRADS abstract",
+               "3.23.20",
+               "4.3.20",
                "0",
                "Adam (20\\%), Trey (20\\%), Peter (20\\%), Mike(20\\%), Peter (20\\%)",
-               "Develop an adequate abstract for UGRADS",
+               "Develop a phenomenal abstract for UGRADS",
                "Abstract is submitted")
-
-chili.new_task(file_name,
-               "Merge stepper code with piezo code and add networking",
-               "3.6.20",
-               "3.13.20",
-               "0",
-               "Trey (25\\%), Adam (25\\%), Brandon (25\\%), Mike (25\\%)",
-               "To prepare for demo, merge all the separate tester files into one so that we can handle BrainCon packets for controlling both NAT and siderostat",
-               "Raspberry Pi can receive a packet from BrainCon with info for motor_el, motor_az, nat_el, nat_az, and Pi can output counts to MotorCon and set PWM appropriately")
 
 
 chili.new_section(file_name, "Upcoming Tasks: Planning")
@@ -165,27 +196,9 @@ chili.new_task(file_name,
                "Aliases created and documented.")
 
 chili.new_task(file_name,
-               "NAT testing",
-               "2.20.20",
-               "3.10.20",
-               "0",
-               "All",
-               "Test piezo functions and controls on a NAT at NPOI.  Since PiGPIO was chosen 3/5/20 and testing was accomplished on oscilloscope, can set up a test at NPOI now- to do testing need to contact Jason Sanborne or other available observers to set up the photon counters, these photon counters will tell us how our PWM changes are affecting the piezos",
-               "We succeed in controlling a NAT or not.  We observe how voltage changes change the mirror positioning. We can now correlate AlignCon packets to voltage values")
-
-chili.new_task(file_name,
-               "Prepare for alpha prototype",
-               "1.24.20",
-               "3.16.20",
-               "100",
-               "All (proportional to individual parts and their contributions)",
-               "Work on capabilities outlined in alpha prototype and be ready to present an acceptable alpha",
-               "Testing and demonstration is performed")
-
-chili.new_task(file_name,
                "AlignCon/ WasaMon packet value correlation",
                "1.24.20",
-               "3.10.20",
+               "TBD",
                "0",
                " Peter (40//%),Trey (40//%)  Adam (20//%)",
                "AlignCon value conversion from x,y to voltages (adding or subtracting from current voltage value depending on photon counts and x,y offset value) and motor count conversion for WasaMon. This correlation is done through testing at NPOI through sending motor counts and observing the change",
