@@ -38,12 +38,13 @@ chili.new_task(file_name,
                "Investigate to potentially use deepstate fuzzing to test the various APIs for bugs",
                "At this time, deepstate is not easily available to the public, i.e. incredibly lacking in documentation, have to use docker(when there is a working image), etc.")
 
+
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 chili.new_task(file_name,
                "Convert code away from WiringPi",
                "3.13.20",
                "4.10.20",
-               "0",
+               "11",
                "Michael (100\\%)",
                "WiringPi seems to conflict with the PWM PiGPIO lib. PiGPIO also supports GPIO access and does not use the WiringPi virtual numbering (which has only confused things).",
                "Code converted to setup with and use PiGPIO commands. Pushed to repo.")
@@ -83,6 +84,7 @@ chili.new_task(file_name,
                "Trey (25\\%), Adam (25\\%), Brandon (25\\%), Mike (25\\%)",
                "To prepare for demo, merge all the separate tester files into one so that we can handle BrainCon packets for controlling both NAT and siderostat",
                "Raspberry Pi can receive a packet from BrainCon with info for motor_el, motor_az, nat_el, nat_az, and Pi can output counts to MotorCon and set PWM appropriately")
+
 
 chili.new_section(file_name, "Upcoming Tasks: Planning")
 chili.new_task(file_name,
@@ -151,3 +153,5 @@ chili.new_task(file_name,
 # NO TOUCHY
 chili.finish_the_chili(file_name)
 # END NO TOUCHY
+
+# Me touchy chili long time
