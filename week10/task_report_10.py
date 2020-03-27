@@ -39,7 +39,7 @@ chili.new_task(file_name,
                "At this time, deepstate is not easily available to the public, i.e. incredibly lacking in documentation, have to use docker(when there is a working image), etc.")
 
 chili.new_task(file_name,
-               "Register for UGRADS & Submit Abstract",
+               "Register for UGRADS \\& Submit Abstract",
                "3.6.20",
                "3.15.20",
                "100",
@@ -50,7 +50,7 @@ chili.new_task(file_name,
 
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 chili.new_task(file_name,
-               "Order Pi Parts & Laptop",
+               "Order Pi Parts \\& Laptop",
                "3.27.20",
                "3.30.20",
                "0",
@@ -112,9 +112,9 @@ chili.new_task(file_name,
                "Create circuit diagrams for all of the curcuits made for the project to allow future EE's to improve and understand the electronics.",
                "Circuit diagrams")
 
-cili.new_task(file_name,
+chili.new_task(file_name,
               "Design Review 3",
-              "3.27.20"
+              "3.27.20",
               "4.3.20",
               "10",
               "All",
@@ -158,7 +158,7 @@ chili.new_task(file_name,
                "Abstract is submitted")
 
 
-chili.new_section(file_name, "Upcoming Tasks: Planning")
+chili.new_section(file_name, "Upcoming Tasks")
 chili.new_task(file_name,
                "Research and implement sending command line instructions from within C code",
                "3.13.20",
@@ -195,14 +195,14 @@ chili.new_task(file_name,
                "Create useful system admin aliases for BrainCon to facilitate easy system maintenance.",
                "Aliases created and documented.")
 
-chili.new_task(file_name,
-               "AlignCon/ WasaMon packet value correlation",
+'''chili.new_task(file_name,
+               "AlignCon WasaMon packet value correlation",
                "1.24.20",
                "TBD",
                "0",
                " Peter (40//%),Trey (40//%)  Adam (20//%)",
                "AlignCon value conversion from x,y to voltages (adding or subtracting from current voltage value depending on photon counts and x,y offset value) and motor count conversion for WasaMon. This correlation is done through testing at NPOI through sending motor counts and observing the change",
-               "AlignCon packets and WasaMon packets are correlated to voltage change and motor counts respectively through testing results")
+               "AlignCon packets and WasaMon packets are correlated to voltage change and motor counts respectively through testing results")'''
 
 # NO TOUCHY
 chili.finish_the_chili(file_name)
