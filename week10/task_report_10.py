@@ -29,69 +29,33 @@ chili.new_task(file_name,
                "Write a python script that auto generates a pdf of the task report so we don't have to mess around with google docs' terrible copy and paste.",
                "Code written and tested and working.")
 
-chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
-
-chili.new_task(file_name,
-               "Researched and wrote code for remotely powering on the RPi",
-               "3.6.20",
-               "3.12.20",
-               "100",
-               "Michael (100\\%)",
-               "Explored options for remotely powering on and off Pi.",
-               "Powering off can be done through the command line. RPi does not support WOL (Wake on Lan) through its ethernet ports so we needed to interface with the Ethernet Power Controller on site. Code complete and demonstrated in demo.")
-
-chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
-
-chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
-
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
+               "Convert code away from WiringPi",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "4.10.20",
+               "0",
+               "Michael (100\\%)",
+               "WiringPi seems to conflict with the PWM PiGPIO lib. PiGPIO also supports GPIO access and does not use the WiringPi virtual numbering (which has only confused things).",
+               "Code converted to setup with and use PiGPIO commands. Pushed to repo.")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
+               "Test pins after conversion to PiGPIO",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "4.10.20",
+               "0",
+               "TBD (dibs)",
+               "Test that conversion to PiGPIO addresses the correct pins and outputs the correct signal.",
+               "Code tested and confirmed to work.")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
+               "Utilize Thread Pool",
                "3.6.20",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "25",
+               "Brandon (100\\%)",
+               "The thread pool code compiles, must create a workflow and main method for using thread pool on NeuronCon",
+               "A main.cpp file designed using the thread pool.")
 
 chili.new_task(file_name,
                "PiGPIO lib in C",
