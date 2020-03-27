@@ -41,6 +41,47 @@ chili.new_task(file_name,
 
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 chili.new_task(file_name,
+               "User Manual",
+               "3.27.20",
+               "",
+               "0",
+               "Peter (50\\%), Rest TBD", # I am giving my self the percentage since I will be doing LaTeX
+               "Create the user manual for the system to give to JC so they can replicate/use the system",
+               "A manual for the system")
+
+chili.new_task(file_name,
+               "BrainCon Code Documentation",
+               "3.27.20",
+               "",
+               "Trey (70\\%) Peter (20\\%) Adam (10\\%)",
+               "Document the code to limit future questions about source code and to allow future developers to read and understand our code.",
+               "Well-documented code.")
+
+chili.new_task(file_name,
+               "NeuronCon Code Documentation",
+               "3.27.20",
+               "",
+               "Adam (34\\%) Mike (33\\%) Brandon (33\\%)",
+               "Document the code to limit future questions about source code and to allow future developers to read and understand our code.",
+               "Well-documented code.")
+
+chili.new_task(file_name,
+               "Circuit Diagrams",
+               "3.27.20",
+               "",
+               "Adam (70\\%) Peter (30\\%)",
+               "Create circuit diagrams for all of the curcuits made for the project to allow future EE's to improve and understand the electronics.",
+               "Circuit diagrams")
+
+cili.new_task(file_name,
+              "Design Review 3",
+              "3.27.20"
+              "",
+              "All",
+              "Create some sort of presentation for Design Review 3, modified due to the covid-19 craziness",
+              "A presentation for design review 3")
+
+chili.new_task(file_name,
                "Convert code away from WiringPi",
                "3.13.20",
                "4.10.20",
