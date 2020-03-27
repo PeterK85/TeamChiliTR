@@ -29,6 +29,15 @@ chili.new_task(file_name,
                "Write a python script that auto generates a pdf of the task report so we don't have to mess around with google docs' terrible copy and paste.",
                "Code written and tested and working.")
 
+chili.new_task(file_name,
+               "Investigate Deepstate for Testing APIs",
+               "2.27.20",
+               "3.16.20",
+               "100",
+               "Peter (100\\%)",
+               "Investigate to potentially use deepstate fuzzing to test the various APIs for bugs",
+               "At this time, deepstate is not easily available to the public, i.e. incredibly lacking in documentation, have to use docker(when there is a working image), etc.")
+
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 chili.new_task(file_name,
                "Convert code away from WiringPi",
@@ -58,95 +67,86 @@ chili.new_task(file_name,
                "A main.cpp file designed using the thread pool.")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "Put together abstract for UGRADS",
+               "2.21.20",
+               "3.10.20",
+               "0",
+               "Adam (20\\%), Trey (20\\%), Peter (20\\%), Mike(20\\%), Peter (20\\%)",
+               "Develop an adequate abstract for UGRADS",
+               "Abstract is submitted")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
+               "Merge stepper code with piezo code and add networking",
                "3.6.20",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
-
-chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "0",
+               "Trey (25\\%), Adam (25\\%), Brandon (25\\%), Mike (25\\%)",
+               "To prepare for demo, merge all the separate tester files into one so that we can handle BrainCon packets for controlling both NAT and siderostat",
+               "Raspberry Pi can receive a packet from BrainCon with info for motor_el, motor_az, nat_el, nat_az, and Pi can output counts to MotorCon and set PWM appropriately")
 
 chili.new_section(file_name, "Upcoming Tasks: Planning")
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
+               "Research and implement sending command line instructions from within C code",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "4.10.20",
+               "0",
+               "Mike (100\\%)",
+               "It is useful (yet dangerous) to accept command line input from code. Research protocol in C and implement test code.",
+               "Test code written and tested.")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
+               "Determine packet structure for including command line instructions.",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "4.10.20",
+               "0",
+               "Trey (50\\%) Mike (50\\%)",
+               "Decide on a way to include, differentiate, and act on command line instructions within packet.",
+               "Design determined.")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
+               "Implement the architected design for command line instructions",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "4.10.20",
+               "0",
+               "Trey (50\\%) Mike (50\\%)",
+               "Trey will incorporate and differentiate the data. Mike will differentiate and execute the data.",
+               "Data terminated.")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
+               "Create and document useful aliases for BrainCon",
                "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "4.10.20",
+               "0",
+               "Mike (100\\%)",
+               "Create useful system admin aliases for BrainCon to facilitate easy system maintenance.",
+               "Aliases created and documented.")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "NAT testing",
+               "2.20.20",
+               "3.10.20",
+               "0",
+               "All",
+               "Test piezo functions and controls on a NAT at NPOI.  Since PiGPIO was chosen 3/5/20 and testing was accomplished on oscilloscope, can set up a test at NPOI now- to do testing need to contact Jason Sanborne or other available observers to set up the photon counters, these photon counters will tell us how our PWM changes are affecting the piezos",
+               "We succeed in controlling a NAT or not.  We observe how voltage changes change the mirror positioning. We can now correlate AlignCon packets to voltage values")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
+               "Prepare for alpha prototype",
+               "1.24.20",
+               "3.16.20",
                "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "All (proportional to individual parts and their contributions)",
+               "Work on capabilities outlined in alpha prototype and be ready to present an acceptable alpha",
+               "Testing and demonstration is performed")
 
 chili.new_task(file_name,
-               "PiGPIO lib in C",
-               "3.6.20",
-               "3.13.20",
-               "100",
-               "Michael (50\\%) Adam (50\\%)",
-               "After getting Jim's approval that the library is outputting the correct signal, start implementing code to use PiGPIO in C.",
-               "Code written and tested.")
+               "AlignCon/ WasaMon packet value correlation",
+               "1.24.20",
+               "3.10.20",
+               "0",
+               " Peter (40//%),Trey (40//%)  Adam (20//%)",
+               "AlignCon value conversion from x,y to voltages (adding or subtracting from current voltage value depending on photon counts and x,y offset value) and motor count conversion for WasaMon. This correlation is done through testing at NPOI through sending motor counts and observing the change",
+               "AlignCon packets and WasaMon packets are correlated to voltage change and motor counts respectively through testing results")
 
 # NO TOUCHY
 chili.finish_the_chili(file_name)
