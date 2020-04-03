@@ -7,7 +7,7 @@ file_name = chili.init_tr("11", "4.3.20")
 # END NO TOUCHY
 
 # To add a meeting, put a string in the list ex. "Client meeting"
-meetings = ["Client Zoom Meeting 4.3.20"]
+meetings = ["Team Zoom Meeting 4.2.20"]
 chili.recent_meetings(file_name, meetings)
 
 # Adding a new task
