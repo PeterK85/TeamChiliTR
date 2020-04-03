@@ -20,34 +20,23 @@ chili.recent_meetings(file_name, meetings)
 #                description,
 #                outcome)
 chili.new_section(file_name, "TASKS COMPLETED since last meeing")
-# OLD; REMOVE
 chili.new_task(file_name,
-               "Create a script to make these task reports easier to make",
-               "3.25.20",
-               "3.26.20",
+               "Discuss strategy and delegation for Capstone Dry Run (previously DR3)",
+               "3.29.20",
+               "4.2.20",
                "100",
-               "Peter (95\\%) Adam (5\\%)",
-               "Write a python script that auto generates a pdf of the task report so we don't have to mess around with google docs' terrible copy and paste.",
-               "Code written and tested and working.")
+               "ALL",
+               "Who will edit, what software, strategy, screen sharing, who does what part.",
+               "Decided we will have Adam be the master editor with his critical gamer skills. Team is clear on what we would like to focus on and who is doing which part. Also created a living list of all diagrams needed for the presentation.")
 
 chili.new_task(file_name,
-               "Investigate Deepstate for Testing APIs",
-               "2.27.20",
-               "3.16.20",
+               "Discuss strategy for remainder of the term",
+               "3.29.20",
+               "4.4.20",
                "100",
-               "Peter (100\\%)",
-               "Investigate to potentially use deepstate fuzzing to test the various APIs for bugs",
-               "At this time, deepstate is not easily available to the public, i.e. incredibly lacking in documentation, have to use docker(when there is a working image), etc.")
-
-chili.new_task(file_name,
-               "Register for UGRADS \\& Submit Abstract",
-               "3.6.20",
-               "3.15.20",
-               "100",
-               "Adam (40\\%), Peter (60\\%)",
-               "To present for UGRADS, submit registration with all names, emails, info, along with title and abstract",
-               "UGRADS registration is complete.")
-# OLD END
+               "ALL",
+               "See title",
+               "Discussed how to balance our efforts given the on-site restrictions and multiple upcoming deadlines (busy work intended for web app teams).")
 
 
 chili.new_section(file_name, "Removed to better focus efforts in response to limited site access")
@@ -96,6 +85,15 @@ chili.new_task(file_name,
                "Trey will incorporate and differentiate the data. Mike will differentiate and execute the data.",
                "Data terminated.")
 
+chili.new_task(file_name,
+               "Put together demo doc",
+               "3.27.20",
+               "4.3.20",
+               "0",
+               "All", 
+               "Put together demo summary for Gerard and JC documenting results and how to move forward",
+               "Document is sent to JC and Gerard")
+
 
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 chili.new_task(file_name,
@@ -117,13 +115,52 @@ chili.new_task(file_name,
                "Parts are ordered")
 
 chili.new_task(file_name,
-               "Put together demo doc",
-               "3.27.20",
-               "4.3.20",
+               "Communicate with client our plan of action for the remainder of the term.",
+               "4.2.20",
+               "4.6.20",
+               "10",
+               "Adam (100\\%)",
+               "Discuss plan of action with client so we are all on the same page.",
+               "Discussed how to balance our efforts given the on-site restrictions and multiple upcoming deadlines (busy work intended for web app teams).")
+
+# @Brandon we can move this to removed or you can mark as complete. Just change the date!
+chili.new_task(file_name,
+               "Utilize Thread Pool",
+               "3.6.20",
+               "3.29.20",
+               "70",
+               "Brandon (100\\%)",
+               "The thread pool code compiles, must create a workflow and main method for using thread pool on NeuronCon",
+               "A main.cpp file designed using the thread pool.")
+
+chili.new_task(file_name,
+               "Capstone Presentation Dry Run",
+               "3.29.20",
+               "4.10.20",
+               "10",
+               "ALL (parts delegated in team document; available upon request)", 
+               "Work on individual parts, requesting help as needed, and put together in final video.",
+               "Video of good quality that does a good job of telling our story.")
+
+
+chili.new_section(file_name, "Upcoming Tasks")
+chili.new_task(file_name,
+               "POSTPONED: Make changes to UGRADS abstract",
+               "3.23.20",
+               "4.10.20",
                "0",
-               "All", 
-               "Put together demo summary for Gerard and JC documenting results and how to move forward",
-               "Document is sent to JC and Gerard")
+               "Adam (20\\%), Trey (20\\%), Peter (20\\%), Mike(20\\%), Peter (20\\%)",
+               "Develop a phenomenal abstract for UGRADS",
+               "Abstract is submitted")
+
+chili.new_task(file_name,
+               "Create and document useful aliases for BrainCon",
+               "3.13.20",
+               "4.10.20",
+               "0",
+               "Mike (100\\%)",
+               "Create useful system admin aliases for BrainCon to facilitate easy system maintenance.",
+               "Aliases created and documented.")
 
 chili.new_task(file_name,
                "User Manual",
@@ -161,43 +198,6 @@ chili.new_task(file_name,
                "Create circuit diagrams for all of the curcuits made for the project to allow future EE's to improve and understand the electronics.",
                "Circuit diagrams")
 
-chili.new_task(file_name,
-              "Design Review 3",
-              "3.27.20",
-              "4.3.20",
-              "10",
-              "All",
-              "Create some sort of presentation for Design Review 3, modified due to the covid-19 craziness",
-              "A presentation for design review 3")
-
-chili.new_task(file_name,
-               "Utilize Thread Pool",
-               "3.6.20",
-               "3.29.20",
-               "70",
-               "Brandon (100\\%)",
-               "The thread pool code compiles, must create a workflow and main method for using thread pool on NeuronCon",
-               "A main.cpp file designed using the thread pool.")
-
-chili.new_task(file_name,
-               "Make changes to UGRADS abstract",
-               "3.23.20",
-               "4.3.20",
-               "0",
-               "Adam (20\\%), Trey (20\\%), Peter (20\\%), Mike(20\\%), Peter (20\\%)",
-               "Develop a phenomenal abstract for UGRADS",
-               "Abstract is submitted")
-
-
-chili.new_section(file_name, "Upcoming Tasks")
-chili.new_task(file_name,
-               "Create and document useful aliases for BrainCon",
-               "3.13.20",
-               "4.10.20",
-               "0",
-               "Mike (100\\%)",
-               "Create useful system admin aliases for BrainCon to facilitate easy system maintenance.",
-               "Aliases created and documented.")
 
 '''chili.new_task(file_name,
                "AlignCon WasaMon packet value correlation",
