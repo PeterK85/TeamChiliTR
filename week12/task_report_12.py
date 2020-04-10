@@ -20,22 +20,41 @@ chili.recent_meetings(file_name, meetings)
 #                description,
 #                outcome)
 chili.new_section(file_name, "TASKS COMPLETED since last meeing")
-chili.new_task(file_name,
-               "Capstone Presentation Dry Run",
-               "3.29.20",
-               "4.10.20",
-               "100",
-               "ALL (parts delegated in team document; available upon request)", 
-               "Work on individual parts, requesting help as needed, and put together in final video.",
-               "Video of good quality that does a good job of telling our story.")
 
 chili.new_task(file_name,
-               "Capstone Presentation Dry Run",
+               "Order Pi Parts \\& Laptop",
+               "3.27.20",
+               "3.30.20",
+               "100",
+               "Adam (100\\%)", 
+               "Contact Henrique to order new Pi, laptop, sd card, and Pi case",
+               "Parts are ordered")
+
+chili.new_task(file_name,
+               "Make changes to UGRADS abstract",
+               "3.23.20",
+               "4.6.20",
+               "N/A",
+               "",
+               "No one had any comments on this, so I (Adam) left it as it is...",
+               "Abstract was not edited")
+
+chili.new_task(file_name,
+               "Capstone Presentation Dry Run: Compile all video together",
                "3.29.20",
                "4.10.20",
                "100",
-               "ALL (parts delegated in team document; available upon request)", 
-               "Work on individual parts, requesting help as needed, and put together in final video.",
+               "Adam (100%)", 
+               "Complete video presentation by splicing all videos together, editing audio levels, screen resolutions, and put together final version of dry run",
+               "Video of decent quality is put together.")
+
+chili.new_task(file_name,
+               "Capstone Presentation Dry Run: Intro",
+               "3.29.20",
+               "4.10.20",
+               "50",
+               "Adam (100%)", 
+               "Write script, make slides, and record Intro for Capstone Presentation Dry Run",
                "Video of good quality that does a good job of telling our story.")
 
 chili.new_task(file_name,
@@ -86,28 +105,11 @@ chili.new_task(file_name,
 
 # TODO: CHANGE DATES TO AVOID RED FACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! (to be read with a falling voice)
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
-chili.new_task(file_name,
-               "Order Pi Parts \\& Laptop",
-               "3.27.20",
-               "3.30.20",
-               "0",
-               "Adam (100\\%)", 
-               "Contact Henrique to order new Pi, laptop, sd card, and Pi case",
-               "Parts are ordered")
-
-chili.new_task(file_name,
-               "Order NAT parts",
-               "3.27.20",
-               "3.30.20",
-               "0",
-               "Adam (100\\%)", 
-               "Contact manufacturer of NATCon boxes and get new pair of DC-DC converters (ask for quote first and confirm with JC",
-               "Parts are ordered")
 
 chili.new_task(file_name,
                "Communicate with client our plan of action for the remainder of the term.",
                "4.2.20",
-               "4.6.20",
+               "4.10.20",
                "10",
                "Adam (100\\%)",
                "Discuss plan of action with client so we are all on the same page.",
@@ -125,14 +127,6 @@ chili.new_task(file_name,
 
 
 chili.new_section(file_name, "Upcoming Tasks")
-chili.new_task(file_name,
-               "POSTPONED: Make changes to UGRADS abstract",
-               "3.23.20",
-               "4.10.20",
-               "0",
-               "Adam (20\\%), Trey (20\\%), Peter (20\\%), Mike(20\\%), Peter (20\\%)",
-               "Develop a phenomenal abstract for UGRADS",
-               "Abstract is submitted")
 
 chili.new_task(file_name,
                "Create and document useful aliases for BrainCon",
