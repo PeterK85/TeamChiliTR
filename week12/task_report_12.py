@@ -40,15 +40,6 @@ chili.new_task(file_name,
                "Abstract was not edited")
 
 chili.new_task(file_name,
-               "Capstone Presentation Dry Run: Compile all video together",
-               "3.29.20",
-               "4.10.20",
-               "100",
-               "Adam (100%)", 
-               "Complete video presentation by splicing all videos together, editing audio levels, screen resolutions, and put together final version of dry run",
-               "Video of decent quality is put together.")
-
-chili.new_task(file_name,
                "Capstone Presentation Dry Run: Intro",
                "3.29.20",
                "4.10.20",
@@ -92,6 +83,24 @@ chili.new_task(file_name,
                "Tell the riveting story of our journey and all its trials and tribulations.", 
                "Mike",
                "Video section recorded.")
+
+chili.new_task(file_name,
+               "Capstone Presentation Dry Run: Future Work & Conclusion",
+               "3.29.20",
+               "4.10.20",
+               "50",
+               "Adam (100%)", 
+               "Write script, edit powerpoint slides, record video of this section",
+               "Video of decent quality.")
+
+chili.new_task(file_name,
+               "Capstone Presentation Dry Run: Compile all video together",
+               "3.29.20",
+               "4.10.20",
+               "100",
+               "Adam (100%)", 
+               "Complete video presentation by splicing all videos together, editing audio levels, screen resolutions, and put together final version of dry run",
+               "Video of decent quality is put together.")
 
 chili.new_task(file_name,
                "Software Testing Doc",
