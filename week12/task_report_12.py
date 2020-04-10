@@ -124,6 +124,33 @@ chili.new_task(file_name,
                "Discuss plan of action with client so we are all on the same page.",
                "Discussed how to balance our efforts given the on-site restrictions and multiple upcoming deadlines (busy work intended for web app teams).")
 
+chili.new_task(file_name,
+               "Client: Submit preliminary poster for review",
+               "4.10.20",
+               "4.15.20",
+               "0%",
+               "ALL",
+               "Client would like to look at the poster that we have worked on to give feedback", 
+               "Poster is sent to client")
+
+chili.new_task(file_name,
+               "Client: Submit Preliminary As-Is", 
+               "4.10.20",
+               "4.22.20",
+               "0%",
+               "ALL",
+               "Client needs As-Is report early to present to NRL in order to get funding for hiring us over the summer", 
+               "Preliminary As-Is is sent to client")
+
+chili.new_task(file_name,
+               "Client: Submit Moving Forward and Testing Plan", 
+               "4.10.20",
+               "4.22.20",
+               "0%",
+               "ALL",
+               "To acquire funding from NRL -> Send client doc with testing plan + plan moving forward (things to implement, improvements to make, what we would do if we were to continue on this proect)", 
+               "Best case scenario -> Moving Forward doc is sent to Client. Funding is secured. We have jobs, yay!")
+
 # @Brandon we can move this to removed or you can mark as complete. Just change the date!
 chili.new_task(file_name,
                "Utilize Thread Pool",
@@ -197,7 +224,7 @@ chili.new_task(file_name,
                "5.8.20",
                "0",
                "ALL",
-               "Create poster for our project and submit with 3 min video.",
+               "Create poster for our project and submit with 20 min video.",
                "Poster created and video recorded; assignment submitted (emphasis on first three letters).") 
 
 chili.new_task(file_name,
