@@ -53,8 +53,8 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "100",
-               "Outline our solution and compare to existing setup", 
                "Mike",
+               "Outline our solution and compare to existing setup", 
                "Video section recorded.")
 
 chili.new_task(file_name,
@@ -62,8 +62,8 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "100",
-               "Outline the current solution without bashing the previous hardware or mention satellite.", 
                "Peter",
+               "Outline the current solution without bashing the previous hardware or mention satellite.", 
                "Video section recorded.")
 
 chili.new_task(file_name,
@@ -71,8 +71,8 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "100",
-               "Overview of schedule. Detailed list of planned tests.", 
                "Mike",
+               "Overview of schedule. Detailed list of planned tests.", 
                "Video section recorded.")
 
 chili.new_task(file_name,
@@ -80,8 +80,8 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "100",
-               "Tell the riveting story of our journey and all its trials and tribulations.", 
                "Mike",
+               "Tell the riveting story of our journey and all its trials and tribulations.", 
                "Video section recorded.")
 
 chili.new_task(file_name,
@@ -107,8 +107,8 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "(99, 100)",
-               "The software document is completed.", 
                "All",
+               "The software document is completed.", 
                "A super great document about testing.")
 
 
