@@ -48,6 +48,15 @@ chili.new_task(file_name,
                "Video section recorded.")
 
 chili.new_task(file_name,
+               "Capstone Presentation Dry Run: Problem Overview",
+               "3.29.20",
+               "4.10.20",
+               "100",
+               "Outline the current solution without bashing the previous hardware or mention satellite.", 
+               "Peter",
+               "Video section recorded.")
+
+chili.new_task(file_name,
                "Capstone Presentation Dry Run: Schedule and Testing",
                "3.29.20",
                "4.10.20",
@@ -64,6 +73,15 @@ chili.new_task(file_name,
                "Tell the riveting story of our journey and all its trials and tribulations.", 
                "Mike",
                "Video section recorded.")
+
+chili.new_task(file_name,
+               "Software Testing Doc",
+               "3.29.20",
+               "4.10.20",
+               "(99, 100)",
+               "The software document is completed.", 
+               "All",
+               "A super great document about testing.")
 
 
 # TODO: CHANGE DATES TO AVOID RED FACE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! (to be read with a falling voice)
