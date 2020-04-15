@@ -3,7 +3,7 @@ sys.path.insert(1, '../src/')
 import chili
 
 # NO TOUCHY
-file_name = chili.init_tr("11", "4.3.20")
+file_name = chili.init_tr("12", "4.10.20")
 # END NO TOUCHY
 
 # To add a meeting, put a string in the list ex. "Client meeting"
@@ -44,7 +44,7 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "50",
-               "Adam (100%)", 
+               "Adam (100\\%)", 
                "Write script, make slides, and record Intro for Capstone Presentation Dry Run",
                "Video of good quality that does a good job of telling our story.")
 
@@ -85,11 +85,11 @@ chili.new_task(file_name,
                "Video section recorded.")
 
 chili.new_task(file_name,
-               "Capstone Presentation Dry Run: Future Work & Conclusion",
+               "Capstone Presentation Dry Run: Future Work \\& Conclusion",
                "3.29.20",
                "4.10.20",
                "50",
-               "Adam (100%)", 
+               "Adam (100\\%)", 
                "Write script, edit powerpoint slides, record video of this section",
                "Video of decent quality.")
 
@@ -98,14 +98,14 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "100",
-               "Adam (100%)", 
+               "Adam (100\\%)", 
                "Complete video presentation by splicing all videos together, editing audio levels, screen resolutions, and put together final version of dry run",
                "Video of decent quality is put together.")
 
 chili.new_task(file_name,
                "Software Testing Doc",
                "3.29.20",
-               "4.10.20",
+               "4.1.20",
                "(99, 100)",
                "All",
                "The software document is completed.", 
@@ -128,7 +128,7 @@ chili.new_task(file_name,
                "Client: Submit preliminary poster for review",
                "4.10.20",
                "4.15.20",
-               "0%",
+               "0\\%",
                "ALL",
                "Client would like to look at the poster that we have worked on to give feedback", 
                "Poster is sent to client")
@@ -137,7 +137,7 @@ chili.new_task(file_name,
                "Client: Submit Preliminary As-Is", 
                "4.10.20",
                "4.22.20",
-               "0%",
+               "0\\%",
                "ALL",
                "Client needs As-Is report early to present to NRL in order to get funding for hiring us over the summer", 
                "Preliminary As-Is is sent to client")
@@ -146,7 +146,7 @@ chili.new_task(file_name,
                "Client: Submit Moving Forward and Testing Plan", 
                "4.10.20",
                "4.22.20",
-               "0%",
+               "0\\%",
                "ALL",
                "To acquire funding from NRL -> Send client doc with testing plan + plan moving forward (things to implement, improvements to make, what we would do if we were to continue on this proect)", 
                "Best case scenario -> Moving Forward doc is sent to Client. Funding is secured. We have jobs, yay!")
