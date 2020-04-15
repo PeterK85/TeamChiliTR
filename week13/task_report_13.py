@@ -84,6 +84,15 @@ chili.new_task(file_name,
                "Video of decent quality is put together.")
 
 chili.new_task(file_name,
+               "Capstone Poster: Outline",
+               "3.29.20",
+               "4.10.20",
+               "100",
+               "Mike",
+               "Outline of what sections to have in poster, layout, and order of discussion.", 
+               "Outline distributed to team.")
+
+chili.new_task(file_name,
                "Create and document useful aliases for BrainCon",
                "3.13.20",
                "5.8.20",
