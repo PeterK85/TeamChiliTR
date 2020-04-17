@@ -25,7 +25,7 @@ chili.new_task(file_name,
                "3.29.20",
                "4.10.20",
                "100",
-               "Adam (100%)", 
+               "Adam (100\\%)", 
                "Write script, make slides, and record Intro for Capstone Presentation",
                "Video of good quality sufficiently intros the background for the site.")
 
