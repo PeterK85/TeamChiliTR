@@ -24,19 +24,10 @@ chili.new_task(file_name,
                "Capstone Presentation: Intro",
                "3.29.20",
                "4.10.20",
-               "50",
+               "100",
                "Adam (100%)", 
                "Write script, make slides, and record Intro for Capstone Presentation",
-               "Video of good quality that does a good job of telling our story.")
-
-chili.new_task(file_name,
-               "Capstone Presentation: Solution",
-               "3.29.20",
-               "4.10.20",
-               "100",
-               "Mike",
-               "Outline our solution and compare to existing setup", 
-               "Video section recorded.")
+               "Video of good quality sufficiently intros the background for the site.")
 
 chili.new_task(file_name,
                "Capstone Presentation: Problem Overview",
@@ -45,6 +36,15 @@ chili.new_task(file_name,
                "100",
                "Peter",
                "Outline the current solution without bashing the previous hardware or mention satellite.", 
+               "Video section recorded.")
+
+chili.new_task(file_name,
+               "Capstone Presentation: Solution",
+               "3.29.20",
+               "4.10.20",
+               "100",
+               "Mike",
+               "Outline our solution and compare to existing setup", 
                "Video section recorded.")
 
 chili.new_task(file_name,
@@ -69,19 +69,46 @@ chili.new_task(file_name,
                "Capstone Presentation: Future Work & Conclusion",
                "3.29.20",
                "4.10.20",
-               "50",
+               "100",
                "Adam (100\\%)",
                "Write script, edit powerpoint slides, record video of this section",
-               "Video of decent quality.")
+               "Video of decent quality is added.")
 
 chili.new_task(file_name,
-               "Capstone Presentation: Compile all video together",
+               "Capstone Presentation: Edit video",
                "3.29.20",
                "4.10.20",
                "100",
                "Adam (100\\%)", 
-               "Complete video presentation by splicing all videos together, editing audio levels, screen resolutions, and put together final version of dry run",
+               "Complete video presentation by splicing everyones sections together, editing audio levels, screen resolutions, and transitions",
                "Video of decent quality is put together.")
+
+chili.new_task(file_name,
+               "Capstone Presentation: Export and submit video mp4",
+               "3.29.20",
+               "4.10.20",
+               "100",
+               "Adam (100\\%)", 
+               "Export a low-res and high-res version of the video- which takes a while- and submit to the drop box, also taking a while.  Resubmit to Drive according to Doerry's instructions",
+               "Video is exported and submitted.")
+
+chili.new_task(file_name,
+               "Capstone Poster: Format template",
+               "4.6.20",
+               "4.15.20",
+               "100",
+               "Peter (100\\%)", 
+               "Since Peter has another project which is also being submitted to UGRADS, develop a good template for where NPOI images and text boxes can go.",
+               "Modified poster template is created.")
+
+chili.new_task(file_name,
+               "Capstone Poster: Make and format the poster",
+               "4.6.20",
+               "4.15.20",
+               "100",
+               "Adam (100\\%)", 
+               "Make UGRADS Poster and submit to client for review. UPDATE client meeting 4/17 says to make big changes.",
+               "Poster is created.")
 
 chili.new_task(file_name,
                "Capstone Poster: Outline",
@@ -105,22 +132,22 @@ chili.new_task(file_name,
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 
 chili.new_task(file_name,
-               "Communicate with client our plan of action for the remainder of the term.",
-               "4.2.20",
-               "4.10.20",
-               "10",
-               "Adam (100\\%)",
-               "Discuss plan of action with client so we are all on the same page.",
-               "Discussed how to balance our efforts given the on-site restrictions and multiple upcoming deadlines (busy work intended for web app teams).")
+               "Capstone Poster: Finalize",
+               "4.15.20",
+               "4.19.20",
+               "0",
+               "Adam (25\\%) Brandon (25\\%) Trey (25\\%) Peter (25\\%)", 
+               "Based on feedback in client and mentor meeting, redo poster",
+               "Poster is created and submitted to UGRADS")
 
 chili.new_task(file_name,
-               "Client: Submit preliminary poster for review",
-               "4.10.20",
+               "UGRADS: Choose time for questions",
                "4.15.20",
-               "0\\%",
-               "ALL",
-               "Client would like to look at the poster that we have worked on to give feedback", 
-               "Poster is sent to client")
+               "4.17.20",
+               "90",
+               "All", 
+               "Choose when we will accept questions from judges for UGRADS",
+               "Time is submitted to UGRADS")
 
 chili.new_task(file_name,
                "Client: Submit Preliminary As-Is", 
@@ -132,6 +159,15 @@ chili.new_task(file_name,
                "Preliminary As-Is is sent to client")
 
 chili.new_task(file_name,
+               "UGRADS: Submit Additional Presentation", 
+               "4.10.20",
+               "4.22.20",
+               "0\\%",
+               "ALL",
+               "Submit new video presentation to client for review before final submittion to UGRADS", 
+               "Video is sent to client")
+
+chili.new_task(file_name,
                "Client: Submit Moving Forward and Testing Plan", 
                "4.10.20",
                "4.22.20",
@@ -140,42 +176,13 @@ chili.new_task(file_name,
                "To acquire funding from NRL -> Send client doc with testing plan + plan moving forward (things to implement, improvements to make, what we would do if we were to continue on this proect)", 
                "Best case scenario -> Moving Forward doc is sent to Client. Funding is secured. We have jobs, yay!")
 
-# @Brandon we can move this to removed or you can mark as complete. Just change the date!
-chili.new_task(file_name,
-               "Utilize Thread Pool",
-               "3.6.20",
-               "4.20.20",
-               "90",
-               "Brandon (100\\%)",
-               "The thread pool code compiles, must create a workflow and main method for using thread pool on NeuronCon",
-               "A main.cpp file designed using the thread pool.")
-
-
 chili.new_section(file_name, "Upcoming Tasks")
-
-chili.new_task(file_name,
-               "Create and document useful aliases for BrainCon",
-               "3.13.20",
-               "5.8.20",
-               "0",
-               "Mike (100\\%)",
-               "Create useful system admin aliases for BrainCon to facilitate easy system maintenance.",
-               "Aliases created and documented.")
-
-chili.new_task(file_name,
-               "User Manual",
-               "3.23.20",
-               "4.24.20",
-               "0",
-               "Peter (50\\%), Rest TBD", # I am giving my self the percentage since I will be doing LaTeX
-               "Create the user manual for the system to give to JC so they can replicate/use the system",
-               "A manual for the system")
 
 chili.new_task(file_name,
                "BrainCon Code Documentation",
                "3.23.20",
-               "4.24.20",
-               "2",
+               "5.1.20",
+               "10",
                "Trey (70\\%) Peter (20\\%) Adam (10\\%)",
                "Document the code to limit future questions about source code and to allow future developers to read and understand our code.",
                "Well-documented code.")
@@ -183,18 +190,18 @@ chili.new_task(file_name,
 chili.new_task(file_name,
                "NeuronCon Code Documentation",
                "3.23.20",
-               "4.24.20",
-               "2",
-               "Adam (34\\%) Mike (33\\%) Brandon (33\\%)",
+               "5.1.20",
+               "8",
+               "Adam (50\\%) Brandon (50\\%)",
                "Document the code to limit future questions about source code and to allow future developers to read and understand our code.",
                "Well-documented code.")
 
 chili.new_task(file_name,
                "Circuit Diagrams",
                "3.27.20",
-               "4.24.20",
+               "5.1.20",
                "1",
-               "Adam (70\\%) Peter (30\\%)",
+               "Adam (60\\%) Peter (20\\%) Brandon (20\\%)",
                "Create circuit diagrams for all of the curcuits made for the project to allow future EE's to improve and understand the electronics.",
                "Circuit diagrams")
 
@@ -204,17 +211,8 @@ chili.new_task(file_name,
                "5.8.20",
                "90",
                "Adam (100\\%)",
-               "Ensure website defeats that of all other teams both now and who have come before.",
-               "Other teams defeated and in disbelief (\"woah did it just resize?!?!?\".") # quotes in quotes may cause issue
-
-chili.new_task(file_name,
-               "Capstone Poster",
-               "4.8.20",
-               "5.8.20",
-               "0",
-               "ALL",
-               "Create poster for our project and submit with 20 min video.",
-               "Poster created and video recorded; assignment submitted (emphasis on first three letters).") 
+               "Finalize website. Statically-link all imports so update doesn't break formatting. Add Contact Us page. Update all new docs and embed video of presentation.",
+               "Website is finalized")
 
 chili.new_task(file_name,
                "Final Product Acceptance Demo",
@@ -222,26 +220,44 @@ chili.new_task(file_name,
                "5.8.20",
                "0",
                "ALL",
-               "Final demonstration of solution. Discuss options with mentor due to site closure (do in summer).",
-               "Team and mentor have come to a reasonable agreement and set time to demo in summer.") 
+               "Final demonstration of solution. Discuss options with mentor due to site closure.",
+               "Time and date for demo is set") 
 
 chili.new_task(file_name,
-               "Final Ass Built Report",
-               "4.8.20",
-               "5.8.20",
+               "User Manual: Raspberry Pi Setup",
+               "3.23.20",
+               "5.1.20",
                "0",
-               "ALL",
-               "Write yet another report filled with the abbreviation of bachelor of science.",
-               "Team and mentor have come to a reasonable agreement and set due dates for the summer (donuts upon request).") 
+               "Adam (10\\%) Brandon (50\\%)", 
+               "Create the user manual for formatting the OS, downloading dependencies, and running the embedded software",
+               "Section is clear and concise")
 
 chili.new_task(file_name,
-               "Final Delivery",
-               "4.8.20",
-               "5.8.20",
+               "User Manual: BrainCon Setup",
+               "3.23.20",
+               "5.1.20",
                "0",
-               "ALL",
-               "Just when you thought there could be no more, another assignment surfaces and restores anger to the population.",
-               "Team and mentor have come to a reasonable agreement and set due dates for the summer (VEGAN donuts upon request).")
+               "Peter (50\\%) Trey (50\\%)", 
+               "Create the user manual for things necessary for downloading, compiling BrainCon codebase",
+               "Secion is clear")
+
+chili.new_task(file_name,
+               "User Manual: NeuronNet Init",
+               "3.23.20",
+               "5.1.20",
+               "0",
+               "Trey (100\\%)", # I am giving my self the percentage since I will be doing LaTeX
+               "Create section for setting up the network for BrainCon and Raspberry Pi including IP addresses and libraries needed",
+               "Section is clear")
+
+chili.new_task(file_name,
+               "User Manual: BrainCon GUI",
+               "3.23.20",
+               "5.1.20",
+               "0",
+               "Peter (50\\%) Trey (50\\%)", 
+               "Create the user manual for how to run and use the GUI",
+               "Astronomers can understand how to use the GUI")
 
 chili.new_task(file_name,
                "User Manual: BrainCon Replication",
@@ -252,6 +268,14 @@ chili.new_task(file_name,
                "Document BrainCon linux installation, configuration, and additional package installs.",
                "Documentation such that even a mac boy like Adam can do it.")
 
+chili.new_task(file_name,
+               "Final Delivery",
+               "4.8.20",
+               "5.8.20",
+               "0",
+               "ALL",
+               "Just when you thought there could be no more, another assignment surfaces and restores anger to the population.",
+               "Team and mentor have come to a reasonable agreement and set due dates for the summer (VEGAN donuts upon request).")
 
 '''chili.new_task(file_name,
                "AlignCon WasaMon packet value correlation",
