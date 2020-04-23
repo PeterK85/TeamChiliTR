@@ -128,6 +128,83 @@ chili.new_task(file_name,
                "Create useful system admin aliases for BrainCon to facilitate easy system maintenance.",
                "Aliases documented, but not created on site.")
 
+chili.new_task(file_name,
+               "As-Is Draft: Process Overview",
+               "4.15.20",
+               "5.8.20",
+               "100",
+               "Mike (100\\%)",
+               "Write up section according to spec.",
+               "Section compiled in Latex doc.")
+
+chili.new_task(file_name,
+               "As-Is Draft: Testing",
+               "4.15.20",
+               "5.8.20",
+               "100",
+               "Mike (100\\%)",
+               "Write up section according to spec.",
+               "Section compiled in Latex doc.")
+
+chili.new_task(file_name,
+               "As-Is Draft: Timeline",
+               "4.15.20",
+               "5.8.20",
+               "100",
+               "Mike (100\\%)",
+               "Write up section according to spec.",
+               "Section compiled in Latex doc.")
+
+chili.new_task(file_name,
+               "As-Is Draft: Hardware (OS)",
+               "4.15.20",
+               "5.8.20",
+               "100",
+               "Mike (100\\%)",
+               "Write up section according to spec.",
+               "Section compiled in Latex doc.")
+
+chili.new_task(file_name,
+               "As-Is Draft: Setup RPi (OS)",
+               "4.15.20",
+               "5.8.20",
+               "100",
+               "Mike (100\\%)",
+               "Write up section according to spec.",
+               "Section compiled in Latex doc.")
+
+chili.new_task(file_name,
+               "As-Is Draft: Setup Braincon",
+               "4.15.20",
+               "5.8.20",
+               "100",
+               "Mike (100\\%)",
+               "Write up section according to spec.",
+               "Section compiled in Latex doc.")
+
+# put the rest here
+
+
+chili.new_task(file_name,
+               "Client: Submit Preliminary As-Is", 
+               "4.10.20",
+               "4.22.20",
+               "100\\%",
+               "ALL",
+               "Client needs As-Is report early to present to NRL in order to get funding for hiring us over the summer", 
+               "Preliminary As-Is is sent to client")
+
+chili.new_task(file_name,
+               "Client: Submit Moving Forward and Testing Plan", 
+               "4.10.20",
+               "4.22.20",
+               "100\\%",
+               "ALL",
+               "To acquire funding from NRL -> Send client doc with testing plan + plan moving forward (things to implement, improvements to make, what we would do if we were to continue on this proect)", 
+               "This was integrated into the submitted As-Is doc.")
+
+
+
 
 chili.new_section(file_name, "This week’s Tasks: Work plan for coming week")
 
@@ -150,15 +227,6 @@ chili.new_task(file_name,
                "Time is submitted to UGRADS")
 
 chili.new_task(file_name,
-               "Client: Submit Preliminary As-Is", 
-               "4.10.20",
-               "4.22.20",
-               "0\\%",
-               "ALL",
-               "Client needs As-Is report early to present to NRL in order to get funding for hiring us over the summer", 
-               "Preliminary As-Is is sent to client")
-
-chili.new_task(file_name,
                "UGRADS: Submit Additional Presentation", 
                "4.10.20",
                "4.22.20",
@@ -166,15 +234,6 @@ chili.new_task(file_name,
                "ALL",
                "Submit new video presentation to client for review before final submittion to UGRADS", 
                "Video is sent to client")
-
-chili.new_task(file_name,
-               "Client: Submit Moving Forward and Testing Plan", 
-               "4.10.20",
-               "4.22.20",
-               "0\\%",
-               "ALL",
-               "To acquire funding from NRL -> Send client doc with testing plan + plan moving forward (things to implement, improvements to make, what we would do if we were to continue on this proect)", 
-               "Best case scenario -> Moving Forward doc is sent to Client. Funding is secured. We have jobs, yay!")
 
 
 chili.new_section(file_name, "Upcoming Tasks")
